@@ -1,0 +1,31 @@
+{
+  "name": "package-graph",
+  "version": "1.0.0",
+  "description": "Graph your package.json dependencies within your github organisation",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camjc/package-graph.git"
+  },
+  "keywords": [
+    "graphviz",
+    "package",
+    "visualisation"
+  ],
+  "author": "Cameron Chamberlain",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/camjc/package-graph/issues"
+  },
+  "homepage": "https://github.com/camjc/package-graph#readme"
+}
