@@ -3,7 +3,7 @@ Graph your package.json dependencies within your github organisation
 
 ## Run
 
-npm run start -- --accessToken=ffffffffffffffffffffffffffffffffffffffff --organization=ahmdigital --nameIdentifier=ahm
+`npm run start -- --accessToken=ffffffffffffffffffffffffffffffffffffffff --organization=ahmdigital --nameIdentifier=ahm`
 
 accessToken is a read-only github access token
 
