@@ -8,15 +8,15 @@ digraph {
   layout=neato;
 
 \\"@ahmdigital/ui\\" -> \\"ahm-sales\\";
+\\"@ahmdigital/ui\\" -> \\"ahm-members\\";
+\\"@ahmdigital/constants\\" -> \\"ahm-members\\";
+\\"@ahmdigital/eslint-config\\" -> \\"ahm-members\\" [style=\\"dashed\\"];
 \\"ahm-sales\\" [label=\\"ahm-sales
 
 renovate: 2
 camjc: 1\\"];
-\\"@ahmdigital/ui\\" -> \\"ahm-members\\";
 \\"ahm-members\\" [label=\\"ahm-members
 
 \\"];
-\\"@ahmdigital/constants\\" -> \\"ahm-members\\";
-\\"@ahmdigital/eslint-config\\" -> \\"ahm-members\\" [style=\\"dashed\\"];
 }"
 `;
