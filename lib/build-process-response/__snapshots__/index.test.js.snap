@@ -11,12 +11,12 @@ digraph {
 \\"@ahmdigital/ui\\" -> \\"ahm-members\\";
 \\"@ahmdigital/constants\\" -> \\"ahm-members\\";
 \\"@ahmdigital/eslint-config\\" -> \\"ahm-members\\" [style=\\"dashed\\"];
-\\"ahm-sales\\" [label=\\"ahm-sales
+\\"ahm-sales\\" [color=\\"#4b0000\\", shape=box, label=\\"ahm-sales
 
-renovate: 2
+  renovate: 2
 camjc: 1\\"];
-\\"ahm-members\\" [label=\\"ahm-members
+\\"ahm-members\\" [color=\\"#00000\\", label=\\"ahm-members
 
-\\"];
+  \\"];
 }"
 `;
