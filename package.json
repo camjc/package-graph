@@ -4,10 +4,12 @@
   "description": "Graph your package.json dependencies within your github organisation",
   "main": "./lib/index.js",
   "dependencies": {
+    "express": "^4.16.4",
     "lodash": "^4.17.11",
     "minimist": "^1.2.0",
     "node-fetch": "^2.3.0",
-    "semver": "^5.6.0"
+    "semver": "^5.6.0",
+    "viz.js": "^2.1.2"
   },
   "devDependencies": {
     "jest": "^24.1.0"
