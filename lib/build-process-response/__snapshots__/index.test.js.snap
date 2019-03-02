@@ -10,14 +10,19 @@ digraph {
   node [ fontname=\\"gill sans\\" ];
   edge [ fontname=\\"gill sans\\" ];
 
-\\"@ahmdigital/ui\\" -> \\"ahm-sales\\"
-\\"@ahmdigital/ui\\" -> \\"ahm-members\\"
+\\"@ahmdigital/ui\\" -> \\"ahm-sales\\" [ color=\\"#880000\\" ];
+\\"@ahmdigital/ui\\" -> \\"ahm-members\\" [ color=\\"#880000\\" ];
 \\"@ahmdigital/constants\\" -> \\"ahm-members\\"
 \\"@ahmdigital/eslint-config\\" -> \\"ahm-members\\" [ style=\\"dashed\\" ];
+\\"@ahmdigital/constants\\" -> \\"@ahmdigital/ui\\"
+\\"@ahmdigital/eslint-config\\" -> \\"@ahmdigital/ui\\" [ style=\\"dashed\\" ];
 \\"ahm-sales\\" [ href=\\"https://github.com/ahmdigital/ahm-sales/pulls\\",color=\\"#4b0000\\",label=\\"ahm-sales
 renovate: 2
 camjc: 1\\",shape=\\"box\\" ];
 \\"ahm-members\\" [ href=\\"https://github.com/ahmdigital/members/pulls\\",color=\\"#00000\\",label=\\"ahm-members
+\\" ];
+\\"@ahmdigital/ui\\" [ href=\\"https://github.com/ahmdigital/ui/pulls\\",color=\\"#00000\\",label=\\"@ahmdigital/ui
+1.5.0
 \\" ];
 }"
 `;
