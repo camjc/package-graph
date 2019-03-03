@@ -1,8 +1,5 @@
 {
   "author": "Cameron Chamberlain",
-  "bin": {
-    "package-graph": "./lib/index.js"
-  },
   "bugs": {
     "url": "https://github.com/camjc/package-graph/issues"
   },
