@@ -1,8 +1,11 @@
 {
-  "name": "package-graph",
-  "version": "1.0.0",
-  "description": "Graph your package.json dependencies within your github organisation",
-  "main": "./lib/index.js",
+  "author": "Cameron Chamberlain",
+  "bin": {
+    "package-graph": "node ./lib/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/camjc/package-graph/issues"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "lodash": "^4.17.11",
@@ -11,27 +14,26 @@
     "semver": "^5.6.0",
     "viz.js": "^2.1.2"
   },
+  "description": "Graph your package.json dependencies within your github organisation",
   "devDependencies": {
     "jest": "^24.1.0"
   },
-  "scripts": {
-    "package-graph": "node ./lib/index.js",
-    "start": "node ./lib/index.js",
-    "test": "jest --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/camjc/package-graph.git"
-  },
+  "homepage": "https://github.com/camjc/package-graph#readme",
   "keywords": [
     "graphviz",
     "package",
     "visualisation"
   ],
-  "author": "Cameron Chamberlain",
   "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/camjc/package-graph/issues"
+  "main": "./lib/index.js",
+  "name": "package-graph",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camjc/package-graph.git"
   },
-  "homepage": "https://github.com/camjc/package-graph#readme"
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "jest --watch"
+  },
+  "version": "1.0.0"
 }
