@@ -15,6 +15,7 @@
     "jest": "^24.1.0"
   },
   "scripts": {
+    "package-graph": "node ./lib/index.js",
     "start": "node ./lib/index.js",
     "test": "jest --watch"
   },
