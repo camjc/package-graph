@@ -3,11 +3,13 @@ Graph your package.json dependencies within your github organisation
 
 ## Run
 
-`npm run start -- --accessToken=ffffffffffffffffffffffffffffffffffffffff `
+`npm run start -- --accessToken=ffffffffffffffffffffffffffffffffffffffff`
 
 accessToken is a read-only github access token
 
 - Go to `localhost:3000/ahmdigital` to see a package graph (replace `ahmdigital` with any github organization).
+
+Or you can pass accessToken as a query like `localhost:3000/ahmdigital?accessToken=ffffffffffffffffffffffffffffffffffffffff`.
 
 ## Example
 
