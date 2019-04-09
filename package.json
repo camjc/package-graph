@@ -5,10 +5,12 @@
   },
   "dependencies": {
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "lodash": "^4.17.11",
-    "minimist": "^1.2.0",
     "node-fetch": "^2.3.0",
-    "semver": "^5.6.0",
+    "passport": "^0.4.0",
+    "passport-github2": "^0.1.11",
+    "semver": "^6.0.0",
     "viz.js": "^2.1.2"
   },
   "description": "Graph your package.json dependencies within your github organisation",
