@@ -13,7 +13,7 @@
   },
   "description": "Graph your package.json dependencies within your github organisation",
   "devDependencies": {
-    "jest": "^24.1.0"
+    "jest": "^24.8.0"
   },
   "homepage": "https://github.com/camjc/package-graph#readme",
   "keywords": [
