@@ -11,7 +11,7 @@
     "node-fetch": "^2.6.0",
     "passport": "^0.4.0",
     "passport-github2": "^0.1.11",
-    "semver": "^6.3.0",
+    "semver": "^7.5.2",
     "viz.js": "^2.1.2"
   },
   "description": "Graph your package.json dependencies within your github organisation",
