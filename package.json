@@ -4,7 +4,7 @@
     "url": "https://github.com/camjc/package-graph/issues"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "express-rate-limit": "^5.0.0",
     "express-session": "^1.17.0",
     "lodash": "^4.17.15",
